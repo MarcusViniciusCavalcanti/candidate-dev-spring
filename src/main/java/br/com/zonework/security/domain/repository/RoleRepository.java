@@ -8,6 +8,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 
 public class RoleRepository {
     private EntityManager entityManager;
@@ -20,5 +21,12 @@ public class RoleRepository {
         TypedQuery<Role> list = entityManager.createQuery("SELECT Role FROM Credential c JOIN c.roles Role", Role.class);
 
         return Collections.unmodifiableList(list.getResultList());
+    }
+
+    public Optional<Role> findByName(String name) {
+        Role role = entityManager.createQuery("SELECT r FROM Role r where r.name = :name", Role.class)
+                .setParameter("name", name)
+                .getSingleResult();
+        return Optional.ofNullable(role);
     }
 }

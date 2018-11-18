@@ -38,4 +38,12 @@ public class CredentialsRepository  {
 
         return Collections.unmodifiableList(list.getResultList());
     }
+
+    public void save(Credential credential) {
+        entityManager.getTransaction().begin();
+
+        entityManager.persist(credential);
+
+        entityManager.getTransaction().commit();
+    }
 }

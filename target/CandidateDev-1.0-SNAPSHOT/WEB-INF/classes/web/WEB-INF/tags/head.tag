@@ -15,6 +15,8 @@
         <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/vendor/nprogress/nprogress.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/vendor/pnotify/dist/pnotify.css">
 
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/vendor/animate.css/animate.min.css">
+
         <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/custom.min.css"/>
     </head>
 

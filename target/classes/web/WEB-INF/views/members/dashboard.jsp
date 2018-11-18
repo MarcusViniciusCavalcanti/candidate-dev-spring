@@ -3,7 +3,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="t" tagdir="/WEB-INF/tags" %>
 
-<t:template credentials="${credentials}" title="Dashboard">
+<t:template title="Dashboard">
     <jsp:body>
         <p>dashboard</p>
     </jsp:body>

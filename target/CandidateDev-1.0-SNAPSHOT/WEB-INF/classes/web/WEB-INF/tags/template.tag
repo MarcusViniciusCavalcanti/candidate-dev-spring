@@ -1,8 +1,9 @@
+<jsp:useBean id="credentials" scope="session" type="br.com.zonework.security.domain.entity.Credential"/>
+
 <%@ tag description="Template" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="h" tagdir="/WEB-INF/tags" %>
 
-<%@ attribute name="credentials" type="br.com.zonework.security.domain.entity.Credential" %>
 <%@ attribute name="title" type="java.lang.String" %>
 
 <h:head title="${title}">
@@ -81,8 +82,21 @@
         <script src="${pageContext.request.contextPath}/assets/vendor/jquery-sparkline/dist/jquery.sparkline.js"></script>
         <script src="${pageContext.request.contextPath}/assets/vendor/nprogress/nprogress.js"></script>
         <script src="${pageContext.request.contextPath}/assets/vendor/pnotify/dist/pnotify.js"></script>
-        <script src="${pageContext.request.contextPath}/assets/js/custom.js"></script>
         <script src="${pageContext.request.contextPath}/assets/js/errors_messages.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/js/custom.js"></script>
+
+        <script src="${pageContext.request.contextPath}/assets/vendor/datatables.net/js/jquery.dataTables.min.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/vendor/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/vendor/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/vendor/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/vendor/datatables.net-buttons/js/buttons.flash.min.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/vendor/datatables.net-buttons/js/buttons.html5.min.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/vendor/datatables.net-buttons/js/buttons.print.min.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/vendor/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/vendor/datatables.net-keytable/js/dataTables.keyTable.min.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/vendor/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/vendor/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/vendor/datatables.net-scroller/js/dataTables.scroller.min.js"></script>
         </body>
     </jsp:body>
 </h:head>

@@ -1,5 +1,7 @@
 package br.com.zonework.security.domain.entity;
 
+import br.com.zonework.members.domain.entity.Members;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Set;
@@ -12,6 +14,10 @@ public class Credential implements Serializable {
     @Column private String username;
     @Column private String password;
     @Column private Boolean isLocked;
+
+    @OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinColumn(name = "member_id")
+    private Members member;
 
     @ManyToMany(cascade = {CascadeType.MERGE, CascadeType.PERSIST}, fetch = FetchType.LAZY)
     @JoinTable(name = "credentials_roles",
@@ -44,6 +50,14 @@ public class Credential implements Serializable {
 
     public void setLocked(Boolean locked) {
         isLocked = locked;
+    }
+
+    public Members getMember() {
+        return member;
+    }
+
+    public void setMember(Members members) {
+        this.member = members;
     }
 
     public Set<Role> getRoles() {

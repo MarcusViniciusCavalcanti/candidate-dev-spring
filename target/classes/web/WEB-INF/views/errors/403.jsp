@@ -1,40 +1,54 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: vinicius
-  Date: 06/10/18
-  Time: 11:37
-  To change this template use File | Settings | File Templates.
---%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Acesso Inválido</title>
-</head>
-<body>
-    <h1>Você não pode acessar esta página!</h1>
+<%@ taglib prefix="t" tagdir="/WEB-INF/tags" %>
 
-<p>
+<t:head title="Acesso Negado">
+    <jsp:body>
+        <body class="nav-md">
+        <div class="container body">
+            <div class="main_container">
+                <!-- page content -->
+                <div class="col-md-12">
+                    <div class="col-middle">
+                        <div class="text-center text-center">
+                            <h1 class="error-number">403</h1>
+                            <h2>Access denied</h2>
+                            <p>Full authentication is required to access this resource. <a href="#">Report this?</a>
+                            </p>
+                            <div class="mid_center">
+                                <h3>Search</h3>
+                                <form>
+                                    <div class="col-xs-12 form-group pull-right top_search">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search for...">
+                                            <span class="input-group-btn">
+                              <button class="btn btn-default" type="button">Go!</button>
+                          </span>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /page content -->
+            </div>
+        </div>
 
-    ${requestScope.exception}
-</p>
 
-<p>
-    ${requestScope.userPrincipal.name}
-</p>
+        <c:if test="${!empty error}">
+            <div class=".error" role="errors">${error}</div>
+        </c:if>
 
-    <%
-        // this string is only availble if the page is marked as an error page (above)
-        String request_uri = (String)request.getAttribute("javax.servlet.error.request_uri");
+        <script src="${pageContext.request.contextPath}/assets/vendor/jquery/dist/jquery.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/vendor/jquery-sparkline/dist/jquery.sparkline.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/vendor/nprogress/nprogress.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/vendor/pnotify/dist/pnotify.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/js/errors_messages.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/js/custom.js"></script>
+        </body>
+    </jsp:body>
+</t:head>
 
-// handle j_security_checks by forwarding to the index page.
-// people will still be confused because they might think they have logged in a second time.
-
-        if ( request_uri.indexOf("j_security_check") > 0 ){
-            request.getRequestDispatcher("/").forward(request, response);
-        }
-
-// keep the response short, so the browser can override it if it likes.
-    %>
-</body>
-</html>

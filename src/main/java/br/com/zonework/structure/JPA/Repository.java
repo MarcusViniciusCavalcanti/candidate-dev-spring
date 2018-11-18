@@ -23,10 +23,11 @@ public class Repository<T extends EntityApplication> {
 
         try {
             entityManager.getTransaction().begin();
-            entity = entityManager.merge(entity);
+            entityManager.persist(entity);
             entityManager.getTransaction().commit();
             return Optional.of(entity);
         } catch (Exception e) {
+            entityManager.getTransaction().rollback();
             e.printStackTrace();
         }
         return Optional.empty();

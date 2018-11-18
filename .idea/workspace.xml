@@ -1,319 +1,230 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="CandidateDev:war exploded" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7d0db8c-50fc-4e4f-bba4-deecab38485f" name="Default Changelist" comment="" />
+    <list default="true" id="abb4744a-7ca0-45ed-99be-f3fd41734596" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/candidates/application/endpoint/NewCandidateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/candidates/domain/repository/MembersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/jobs/application/endpoint/JobsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/jobs/application/endpoint/filter/AllJobsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/jobs/application/endpoint/filter/PaginateRequestWapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/jobs/application/service/JobsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/jobs/domain/entity/Jobs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/jobs/domain/repository/JobsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/members/application/endpoint/ProfileServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/application/endpoint/filter/FilterError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/application/endpoint/filter/FlashScopeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/application/endpoint/filter/XSSFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/application/endpoint/filter/XSSRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/structure/JPA/asdfadsfadsf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/structure/PaginateAndSortedQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/structure/erros/HandlerErrorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/structure/utils/EncoderPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/structure/utils/TableContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/table.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/errors/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/errors/generic-errors.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/jobs/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/members/users/profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/animate.css/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/animate.css/animate-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/animate.css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/animate.css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/animate.css/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/animate.css/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/animate.css/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-bs/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-bs/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-bs/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-bs/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-bs/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-bs/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-bs/js/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-bs/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons-bs/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons-bs/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons-bs/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons-bs/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons-bs/css/buttons.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons-bs/css/buttons.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons-bs/js/buttons.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons-bs/js/buttons.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons/js/buttons.colVis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons/js/buttons.colVis.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons/js/buttons.flash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons/js/buttons.flash.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons/js/buttons.html5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons/js/buttons.html5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons/js/buttons.print.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons/js/buttons.print.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons/js/dataTables.buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-buttons/js/dataTables.buttons.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-fixedheader-bs/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-fixedheader-bs/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-fixedheader-bs/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-fixedheader-bs/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-fixedheader/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-fixedheader/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-fixedheader/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-fixedheader/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-fixedheader/js/dataTables.fixedHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-keytable/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-keytable/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-keytable/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-keytable/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-keytable/js/dataTables.keyTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-keytable/js/dataTables.keyTable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-responsive-bs/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-responsive-bs/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-responsive-bs/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-responsive-bs/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-responsive-bs/css/responsive.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-responsive-bs/js/responsive.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-responsive/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-responsive/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-responsive/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-responsive/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-responsive/js/dataTables.responsive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-responsive/js/dataTables.responsive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-scroller-bs/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-scroller-bs/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-scroller-bs/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-scroller-bs/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-scroller-bs/css/scroller.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-scroller/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-scroller/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-scroller/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-scroller/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-scroller/js/dataTables.scroller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net-scroller/js/dataTables.scroller.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web/assets/vendor/datatables.net/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/zonework/candidates/domain/repository/MembersRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/13fc8d5f-cd82-4757-a9ad-f00e1e03fc63.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/zonework/asdfadsfadsf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/zonework/members/domain/entity/Members.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/members/domain/entity/Members.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/zonework/members/endpoint/DashboardServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/members/application/endpoint/DashboardServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/zonework/members/endpoint/MembersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/members/application/endpoint/MembersServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/entity/Credential.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/entity/Credential.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/repository/CredentialsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/repository/CredentialsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/EntryPointServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/application/endpoint/EntryPointServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/LockServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/application/endpoint/LockServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/application/endpoint/LogoutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/SessionLockedServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/application/endpoint/SessionLockedServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/filter/EntryPointFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/application/endpoint/filter/EntryPointFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/filter/LockFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/application/endpoint/filter/LockFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/service/CredentialsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/security/application/service/SecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/zonework/structure/JPA/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/zonework/structure/JPA/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/head.tag" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/head.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/sidebar.tag" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/sidebar.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/template.tag" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/template.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/topbar.tag" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/topbar.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/errors/403.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/errors/403.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/members/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/members/dashboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/security/form-login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/security/form-login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/zonework/security/endpoint/service/CredentialsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/zonework/security/application/service/CredentialsServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/asdfadsfadsf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/members/domain/entity/Members.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/members/domain/entity/Members.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/members/endpoint/DashboardServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/members/endpoint/MembersServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/security/domain/entity/Credential.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/security/domain/entity/Credential.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/security/domain/repository/CredentialsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/security/domain/repository/CredentialsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/security/domain/repository/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/security/domain/repository/RoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/security/endpoint/EntryPointServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/security/endpoint/LockServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/security/endpoint/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/security/endpoint/SessionLockedServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/security/endpoint/filter/EntryPointFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/security/endpoint/filter/LockFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/security/endpoint/service/CredentialsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/structure/JPA/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/br/com/zonework/structure/JPA/Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/web/WEB-INF/tags/head.tag" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/web/WEB-INF/tags/head.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/web/WEB-INF/tags/sidebar.tag" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/web/WEB-INF/tags/sidebar.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/web/WEB-INF/tags/template.tag" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/web/WEB-INF/tags/template.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/web/WEB-INF/tags/topbar.tag" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/web/WEB-INF/tags/topbar.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/web/WEB-INF/views/errors/403.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/web/WEB-INF/views/errors/403.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/web/WEB-INF/views/members/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/web/WEB-INF/views/members/dashboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/web/WEB-INF/views/security/form-login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/web/WEB-INF/views/security/form-login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/classes/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/tags/head.tag" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/tags/head.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/tags/sidebar.tag" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/tags/sidebar.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/tags/template.tag" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/tags/template.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/tags/topbar.tag" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/tags/topbar.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/views/errors/403.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/views/errors/403.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/views/members/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/views/members/dashboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/views/security/form-login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/views/security/form-login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CandidateDev-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/zonework/asdfadsfadsf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/zonework/members/domain/entity/Members.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/zonework/members/domain/entity/Members.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/zonework/members/endpoint/DashboardServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/zonework/members/endpoint/MembersServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/zonework/security/domain/entity/Credential.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/zonework/security/domain/entity/Credential.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/zonework/security/domain/repository/CredentialsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/zonework/security/domain/repository/CredentialsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/zonework/security/domain/repository/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/zonework/security/domain/repository/RoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/zonework/security/endpoint/EntryPointServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/zonework/security/endpoint/LockServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/zonework/security/endpoint/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/zonework/security/endpoint/SessionLockedServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/zonework/security/endpoint/filter/EntryPointFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/zonework/security/endpoint/filter/LockFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/zonework/security/endpoint/service/CredentialsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/zonework/structure/JPA/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/zonework/structure/JPA/Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/WEB-INF/tags/head.tag" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/WEB-INF/tags/head.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/WEB-INF/tags/sidebar.tag" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/WEB-INF/tags/sidebar.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/WEB-INF/tags/template.tag" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/WEB-INF/tags/template.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/WEB-INF/tags/topbar.tag" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/WEB-INF/tags/topbar.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/WEB-INF/views/errors/403.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/WEB-INF/views/errors/403.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/WEB-INF/views/members/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/WEB-INF/views/members/dashboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/WEB-INF/views/security/form-login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/WEB-INF/views/security/form-login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/zonework/security/endpoint/service/CredentialsServiceTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="candidate-dev@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="candidate-dev@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="candidate-dev@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="candidate-dev: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="candidate-dev@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="candidate-dev: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="credentials: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="candidate-dev@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="candidate-dev: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="credentials_roles: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="candidate-dev@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="candidate-dev: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="permissions: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="candidate-dev@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="candidate-dev: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="roles: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-    </expand>
-    <select />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$USER_HOME$/Downloads/gentelella-master/production/plain_page.html">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="379">
-                    <caret line="319" column="14" selection-start-line="319" selection-start-column="14" selection-end-line="319" selection-end-column="14" />
-                    <folding>
-                      <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                      <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                      <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                      <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                      <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                      <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1548182935">
+    <session id="-2017748885">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="14" />
-          <entry key="credentials" value="11" />
-          <entry key="credentials_roles" value="14" />
-          <entry key="css" value="3" />
-          <entry key="gif" value="1" />
-          <entry key="html" value="2" />
-          <entry key="java" value="86" />
-          <entry key="js" value="9" />
-          <entry key="jsp" value="29" />
-          <entry key="permissions" value="2" />
-          <entry key="png" value="6" />
-          <entry key="properties" value="1" />
-          <entry key="roles" value="5" />
-          <entry key="sql" value="3" />
-          <entry key="tag" value="20" />
-          <entry key="tld" value="1" />
-          <entry key="xml" value="30" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="14" />
-          <entry key="CSS" value="3" />
-          <entry key="Database Element" value="32" />
-          <entry key="HTML" value="2" />
-          <entry key="Image" value="7" />
-          <entry key="JAVA" value="86" />
-          <entry key="JSP" value="49" />
-          <entry key="JavaScript" value="9" />
-          <entry key="Properties" value="1" />
-          <entry key="Scratch" value="3" />
-          <entry key="XML" value="31" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="candidate" value="5" />
-          <entry key="cell" value="139" />
-          <entry key="dummy" value="10" />
-          <entry key="exam" value="2" />
-          <entry key="java" value="4242" />
-          <entry key="js" value="188" />
-          <entry key="jsp" value="792" />
-          <entry key="sql" value="105" />
-          <entry key="tag" value="1390" />
-          <entry key="tld" value="7" />
-          <entry key="txt" value="15" />
-          <entry key="xml" value="361" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="4242" />
-          <entry key="JPA QL" value="7" />
-          <entry key="JSP" value="2182" />
-          <entry key="JavaScript" value="188" />
-          <entry key="PLAIN_TEXT" value="25" />
-          <entry key="SQL" value="20" />
-          <entry key="Scratch" value="224" />
-          <entry key="XML" value="368" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/LockServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/asdfadsfadsf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="14" column="94" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="14" selection-end-column="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/SessionLockedServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" column="113" selection-start-line="24" selection-start-column="113" selection-end-line="24" selection-end-column="113" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/LogoutServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/security/locked.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/members/endpoint/DashboardServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/filter/EntryPointFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="42" column="5" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="42" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/entity/Credential.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#994#995#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/filter/LockFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1687#1688#0" expanded="true" />
-                <element signature="e#1725#1726#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Tag Library Descriptor" />
-        <option value="JUnit4 Test Class" />
-        <option value="JavaScript File" />
-        <option value="Class" />
-        <option value="Jsp File" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -322,352 +233,44 @@
       </map>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/admin/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/admin/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/Login.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/asdfadsfadsf.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/errors/403.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/structure/Render.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/header.tld" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/WEB-INF/components/template.tag" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/WEB-INF/components/header.tag" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/security/form-login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/members/endpoint/MembersServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/dashboard/endpoint/DashboardServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/DashboardServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/members/domain/entity/Members.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/entity/Permissions.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/service/CredentialsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/structure/utils/Constates.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/structure/utils/Constants.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/zonework/security/endpoint/service/CredentialsServiceTest.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/13fc8d5f-cd82-4757-a9ad-f00e1e03fc63/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/structure/JPA/JPAUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/repository/RoleRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/repository/CredentialsRepository.java" />
-        <option value="$PROJECT_DIR$/../../../../study/JavaEE/web-4/apache-tomcat-8.5.32/conf/server.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/entity/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/EntryPointServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/header.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/header.tag" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/members/dashboard.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/topbar.tag" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/filter/EntryPointFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/head.tag" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/template.tag" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/assets/js/errors_messages.js" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/entity/Credential.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/service/SessionLockedServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/sidebar.tag" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/SessionLockedServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/filter/LockFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/security/locked.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/members/endpoint/DashboardServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/LockServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/LogoutServlet.java" />
-      </list>
-    </option>
-  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/src/main/resources/web/assets/vendor/bootstrap/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zonework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zonework" type="462c0819:PsiDirectoryNode" />
-              <item name="members" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zonework" type="462c0819:PsiDirectoryNode" />
-              <item name="members" type="462c0819:PsiDirectoryNode" />
-              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zonework" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zonework" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zonework" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zonework" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zonework" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zonework" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zonework" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zonework" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CandidateDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CandidateDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="candidatedev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="candidate-dev-spring" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Facets" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="br.com.zonework.security.endpoint.service" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="br.com.zonework.security.endpoint" />
-      <recent name="br.com.zonework.members" />
-      <recent name="br.com.zonework.security" />
-      <recent name="br.com.zonework" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/web/assets/vendor" />
-      <recent name="$PROJECT_DIR$/src/main/resources/web/assets/css" />
-      <recent name="$PROJECT_DIR$/src/main/resources/web/assets/js" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/web/assets/vendor" />
-      <recent name="$PROJECT_DIR$/src/main/resources/web/assets/js" />
-      <recent name="$PROJECT_DIR$/src/main/resources/web/assets/css" />
-      <recent name="$PROJECT_DIR$/src/main/resources/web/assets/fonts" />
-      <recent name="$PROJECT_DIR$/src/main/resources/web/assets/images/members" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -681,249 +284,60 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.App">
-    <configuration name="asdfadsfadsf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.zonework.asdfadsfadsf" />
-      <module name="CandidateDev" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.zonework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager">
+    <configuration name="CandidatedevApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="candidate-dev-spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.edu.utfpr.tsi.candidatedev.CandidatedevApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CredentialsServiceTest.should_have_get_credentials_with_username" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CandidateDev" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.zonework.security.endpoint.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.zonework.security.endpoint.service" />
-      <option name="MAIN_CLASS_NAME" value="br.com.zonework.security.endpoint.service.CredentialsServiceTest" />
-      <option name="METHOD_NAME" value="should_have_get_credentials_with_username" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.321" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <deployment>
-        <artifact name="CandidateDev:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_CandidateDev" />
-        <option name="HTTP_PORT" value="8081" />
-        <option name="JNDI_PORT" value="1090" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54217" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="CandidateDev:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Tomcat Server.App" />
-      <item itemvalue="Application.asdfadsfadsf" />
-      <item itemvalue="JUnit.CredentialsServiceTest.should_have_get_credentials_with_username" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.CredentialsServiceTest.should_have_get_credentials_with_username" />
-        <item itemvalue="Application.asdfadsfadsf" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d7d0db8c-50fc-4e4f-bba4-deecab38485f" name="Default Changelist" comment="" />
-      <created>1538857692380</created>
+      <changelist id="abb4744a-7ca0-45ed-99be-f3fd41734596" name="Default Changelist" comment="" />
+      <created>1542455479580</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1538857692380</updated>
-      <workItem from="1538857693892" duration="20505000" />
-      <workItem from="1538921529787" duration="13373000" />
-      <workItem from="1539000539578" duration="7623000" />
-      <workItem from="1539008626644" duration="10908000" />
-      <workItem from="1539091688097" duration="6678000" />
-      <workItem from="1539173724767" duration="49000" />
-      <workItem from="1539173924269" duration="11556000" />
+      <updated>1542455479580</updated>
+      <workItem from="1542455481045" duration="1105000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="CredentialsServiceTest_should_have_get_credentials_with_username - 2018.10.08 at 11h 12m 17s.xml">
-      <configuration name="CredentialsServiceTest.should_have_get_credentials_with_username" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CredentialsServiceTest_should_have_get_credentials_with_username - 2018.10.08 at 11h 21m 43s.xml">
-      <configuration name="CredentialsServiceTest.should_have_get_credentials_with_username" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CredentialsServiceTest_should_have_get_credentials_with_username - 2018.10.08 at 11h 22m 12s.xml">
-      <configuration name="CredentialsServiceTest.should_have_get_credentials_with_username" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CredentialsServiceTest_should_have_get_credentials_with_username - 2018.10.08 at 11h 22m 35s.xml">
-      <configuration name="CredentialsServiceTest.should_have_get_credentials_with_username" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CredentialsServiceTest_should_have_get_credentials_with_username - 2018.10.08 at 11h 23m 18s.xml">
-      <configuration name="CredentialsServiceTest.should_have_get_credentials_with_username" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CredentialsServiceTest_should_have_get_credentials_with_username - 2018.10.08 at 11h 23m 58s.xml">
-      <configuration name="CredentialsServiceTest.should_have_get_credentials_with_username" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CredentialsServiceTest_should_have_get_credentials_with_username - 2018.10.08 at 11h 25m 07s.xml">
-      <configuration name="CredentialsServiceTest.should_have_get_credentials_with_username" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CredentialsServiceTest_should_have_get_credentials_with_username - 2018.10.08 at 11h 26m 22s.xml">
-      <configuration name="CredentialsServiceTest.should_have_get_credentials_with_username" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CredentialsServiceTest_should_have_get_credentials_with_username - 2018.10.08 at 11h 30m 25s.xml">
-      <configuration name="CredentialsServiceTest.should_have_get_credentials_with_username" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CredentialsServiceTest_should_have_get_credentials_with_username - 2018.10.08 at 11h 38m 34s.xml">
-      <configuration name="CredentialsServiceTest.should_have_get_credentials_with_username" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70692000" />
+    <option name="totallyTimeSpent" value="1105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49625668" visible="true" weight="0.26495728" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Persistence" order="2" sideWeight="0.5037433" side_tool="true" weight="0.26495728" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4993895" weight="0.6695187" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32941177" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50061053" side_tool="true" weight="0.6695187" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32941177" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32941177" />
-      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32941177" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JPA Console" order="14" weight="0.32941177" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="JSF" order="4" />
-      <window_info anchor="right" id="CDI" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.1953602" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973262" visible="true" weight="0.25579977" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Persistence" order="2" sideWeight="0.5026738" side_tool="true" weight="0.25579977" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6695187" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32941177" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32941177" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32941177" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JPA Console" order="14" weight="0.32941177" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="JSF" order="4" />
-      <window_info anchor="right" id="CDI" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="right" id="Database" order="7" visible="true" weight="0.1953602" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -931,504 +345,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/zonework/members/endpoint/MembersServlet.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/br/com/zonework/security/endpoint/service/CredentialsServiceTest.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/repository/RoleRepository.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/br/com/zonework/security/endpoint/service/CredentialsServiceTest.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/filter/LockFilter.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/LogoutServlet.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/filter/LockFilter.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/13fc8d5f-cd82-4757-a9ad-f00e1e03fc63/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/entity/Permissions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/structure/JPA/EntityApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/structure/JPA/JPAUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/structure/JPA/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="41" column="66" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="41" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/repository/CredentialsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/repository/RoleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://13fc8d5f-cd82-4757-a9ad-f00e1e03fc63/schema/candidate-dev/table/credentials">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/zonework/security/endpoint/service/CredentialsServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://13fc8d5f-cd82-4757-a9ad-f00e1e03fc63/schema/candidate-dev/table/roles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../study/JavaEE/web-4/apache-tomcat-8.5.32/conf/server.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="156" column="67" selection-start-line="156" selection-start-column="67" selection-end-line="156" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/members/endpoint/MembersServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="30" selection-start-line="24" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/images/loading.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/images/forward_enabled_hover.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/images/forward_enabled.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/images/back_enabled_hover.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/images/forward_disabled.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/images/back_enabled.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/images/back_disabled.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/vendor/jquery-sparkline/src/base.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/gentelella-master/vendors/jquery/src/css/var/swap.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/vendor/nprogress/support/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/vendor/bootstrap/js/tab.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/css/custom.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/entity/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/topbar.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/vendor/pnotify/dist/pnotify.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5665">
-          <caret line="1850" column="42" lean-forward="true" selection-start-line="1850" selection-start-column="42" selection-end-line="1850" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="e#77#84#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/gentelella-master/production/plain_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="319" column="14" selection-start-line="319" selection-start-column="14" selection-end-line="319" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/errors_messages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/EntryPointServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" selection-start-line="13" selection-end-line="19" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/members/dashboard.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/structure/Render.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/sidebar.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="109" selection-start-line="25" selection-start-column="109" selection-end-line="25" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/head.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/service/CredentialsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/WEB-INF/tags/template.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="84" column="95" lean-forward="true" selection-start-line="74" selection-start-column="6" selection-end-line="84" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/filter/EntryPointFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/domain/entity/Credential.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/WEB-INF/views/security/locked.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/members/endpoint/DashboardServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/filter/LockFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
-            <element signature="e#1725#1726#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/LockServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/asdfadsfadsf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="94" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="14" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/SessionLockedServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="113" selection-start-line="24" selection-start-column="113" selection-end-line="24" selection-end-column="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/zonework/security/endpoint/LogoutServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>CandidateDev:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web (CandidateDev)|Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>CandidateDev</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
